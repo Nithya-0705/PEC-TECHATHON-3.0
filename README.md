@@ -58,45 +58,6 @@ View & Use App
 The dashboard will show your study plan and analytics.
 
 
-🖥️ Steps to Run in VS Code
 
-Create & Activate Virtual Environment
-Run this in the VS Code terminal:
-
-python -m venv venv
-
-Activate it:
-
-On Windows (PowerShell):
-
-venv\Scripts\activate
-
-On Linux/Mac:
-
-source venv/bin/activate
-
-Install Dependencies
-Install for both backend and frontend.
-
-Backend cd backend pip install -r requirements.txt cd ..
-
-Frontend cd dashboard pip install -r requirements.txt cd ..
-
-Run Backend (FastAPI Server) cd backend uvicorn serve_model:app --reload
-Keep this terminal running (it hosts your API).
-
-FastAPI will start at 👉 http://127.0.0.1:8000 .
-
-Run Frontend (Streamlit Dashboard)
-Open a new terminal in VS Code (don’t close backend).
-
-cd dashboard streamlit run app_streamlit.py
-
-This will launch the dashboard in your browser at 👉 http://localhost:8501 .
-
-View & Use App
-The dashboard will show your study plan and analytics.
-
-The backend provides AI-powered recommendations in real-time.
 The backend provides AI-powered recommendations in real-time.
 
