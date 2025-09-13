@@ -18,8 +18,6 @@ Backend API: FastAPI server that provides endpoints for study plan generation an
 
 Frontend Dashboard: Streamlit app that interacts with the backend and displays the personalized study interface.
 
-ai-study-assistant/ │ ├── data/ │ └── student_performance.csv # Sample past performance data │ ├── models/ │ ├── study_plan_generator.py # Logic for creating personalized plans │ └── question_generator.py # Simple NLP-based practice question generator │ ├── backend/ │ ├── serve_model.py # FastAPI application │ └── requirements.txt # Backend dependencies │ ├── dashboard/ │ ├── app_streamlit.py # Streamlit dashboard │ └── requirements.txt # Frontend dependencies │ ├── scripts/ │ └── generate_dummy_data.py # Script to generate sample student data │ ├── architecture_diagram.png # System architecture diagram └── README.md
-
 🖥️ Steps to Run in VS Code
 
 Create & Activate Virtual Environment
